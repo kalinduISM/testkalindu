@@ -1,0 +1,23 @@
+{
+    "name": "kalindu/composertest",
+    "description": "a test version",
+    "authors": [
+        {
+            "name": "k.liyanage",
+            "email": "k.liyanage@ism-apac.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/kalinduISM/testkalindu"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "WebTier\\Classes1\\" : "app"
+        }
+    }
+}
+
